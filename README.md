@@ -191,6 +191,15 @@ python tools/eval.py -n  yolox-s -c yolox_s.pth -b 1 -d 1 --conf 0.001 --fp16 --
 
 </details>
 
+## Custom fire detection train
+```shell
+  python3 tools/train.py -f exps/example/yolox_voc/yolox_voc_s.py -d 1 -b 8 --fp16-c ./pre_trained_model/yolox_s.pth
+```
+## Custom fire detection inference
+```shell
+  python3 tools/demo.py video -f exps/example/yolox_voc/yolox_voc_s.py -c ./YOLOX_outputs/yolox_voc_s/best_ckpt.pth --path assets/fire.mp4 --conf 0.55 --nms 0.45 --tsize 640 --save_result --device gpu
+```
+  
 ## Deployment
 
 
