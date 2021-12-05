@@ -1,0 +1,27 @@
+<annotation>
+	<folder />
+	<filename>610.jpg</filename>
+	<path>610.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>297</xmin>
+			<xmax>348</xmax>
+			<ymin>67</ymin>
+			<ymax>118</ymax>
+		</bndbox>
+	</object>
+</annotation>
