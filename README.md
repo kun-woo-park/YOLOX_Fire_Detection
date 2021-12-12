@@ -193,7 +193,7 @@ python tools/eval.py -n  yolox-s -c yolox_s.pth -b 1 -d 1 --conf 0.001 --fp16 --
 
 ## Custom fire detection train
 ```shell
-  python3 tools/train.py -f exps/example/yolox_voc/yolox_voc_s.py -d 1 -b 8 --fp16-c ./pre_trained_model/yolox_s.pth
+  python3 tools/train.py -f exps/example/yolox_voc/yolox_voc_s.py -d 1 -b 8 --fp16 -c ./pre_trained_model/yolox_s.pth
 ```
 ## Custom fire detection inference
 ```shell
